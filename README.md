@@ -8,8 +8,13 @@ To become a leader in bioinformatics research and as a result have great contrib
 
 # MISSION
 
-To find my niche in a high demand area/field of bioinformatics, support, contribute and learn the relevant path to take in achieving my goal.
+To find my niche in a high demand area/field of bioinformatics and learn the relevant path to take in achieving my goal.
+To support and contribute to ongoing projects as a way of finding my niche.
 
 # Goals to achieve my mission
+* To equip myself with the relevant sent of skills.
+* To make myself conversant with the current trends in the genomic research both at ICIPE and Africa at large.
+* To build a culture of reading scientific journals and papers.
+
 
 

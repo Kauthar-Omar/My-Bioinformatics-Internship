@@ -18,7 +18,7 @@ Below is my vision, mission and roadmap I will follow during this journey.
 To become a leader in bioinformatics having great contribution in genomic research.
 
 ### Short term
-To contribute to development of a pipeline using learnt skills hence putting them to use in a project.
+To contribute to development of a pipeline using learnt skills hence putting them to use on an ongoing project at ICIPE.
 
 
 # Mission

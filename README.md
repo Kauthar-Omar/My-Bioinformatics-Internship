@@ -20,7 +20,7 @@ To support and contribute to ongoing projects at ICIPE as a way of finding my ni
 # Goals to achieve my mission
 * To equip myself with the relevant set of skills. Here is a [checklist](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/issues/1) of how am progressing in acquring those skills
 * To make myself conversant with the current trends in the genomic research both at ICIPE and Africa at large.
-* To build a culture of reading scientific journals and papers.
+* To build a culture of reading scientific journals and papers. Here is my journal reading [checklist]()
 
 
 To keep track of my progress executing various task feel free to click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1)

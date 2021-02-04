@@ -4,12 +4,18 @@ Here is my mission, vision and roadmap of how to incooparate my intererst into b
 
 # VISION
 
+`Long term`
+
 To become a leader in bioinformatics having great contribution in genomic research.
+
+`Short term`
+
+To be able to apply my skills learnt during the internship to assigned projects efficiently and with ease making contributions to ongoing research at ICIPE, having keen interest on working with data on microbiome reaearch.
 
 # MISSION
 
 To find my niche in a high demand area/field of bioinformatics and learn the relevant path to take in achieving my goal.
-To support and contribute to ongoing projects as a way of finding my niche.
+To support and contribute to ongoing projects at ICIPE as a way of finding my niche.
 
 # Goals to achieve my mission
 * To equip myself with the relevant set of skills. Here is a [checklist](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/issues/1) of how am progressing

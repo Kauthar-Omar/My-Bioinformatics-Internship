@@ -10,7 +10,7 @@ To become a leader in bioinformatics having great contribution in genomic resear
 
 `Short term`
 
-To be able to apply my skills learnt during the internship to assigned projects efficiently and with ease making contributions to ongoing research at ICIPE, having keen interest on working with data on microbiome reaearch.
+To be able to apply my skills learnt during the internship to assigned projects efficiently and with ease making contributions to ongoing research at ICIPE, having keen interest on working with data on microbiome research.
 
 # MISSION
 

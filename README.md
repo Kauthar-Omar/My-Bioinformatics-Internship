@@ -1,5 +1,5 @@
 # My-Bioinformatics-Internship
-I am Kauthar M. Omar a bioinformatics intern at ICIPE, enthusiastic about genomic research and its significance in solving problems in health and food security.
+:wave: I am Kauthar M. Omar a bioinformatics intern at ICIPE, enthusiastic about genomic research and its significance in solving problems in health and food security.
 Here is my mission, vision and roadmap of how to incooparate my intererst into bioinformatics to reap benefits out of this program.
 
 # VISION

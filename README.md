@@ -23,6 +23,6 @@ To support and contribute to ongoing projects at ICIPE as a way of finding my ni
 * To build a culture of reading scientific journals and papers. Please find my first [milestone](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/milestone/1) to keep me on track.
 
 
-To keep track of my progress executing various task feel free to click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1)
-
+To keep track of my progress executing various task feel free to click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1).
+Feel free to interact and contribute to my journey.
 

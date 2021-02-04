@@ -4,7 +4,7 @@ Here is my mission, vision and roadmap of how to incooparate my intererst into b
 
 # VISION
 
-To become a leader in bioinformatics research and as a result have great contribution in genomic research.
+To become a leader in bioinformatics having great contribution in genomic research.
 
 # MISSION
 

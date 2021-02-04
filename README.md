@@ -1,14 +1,23 @@
 # My-Bioinformatics-Internship
-:wave: I am Kauthar M. Omar a bioinformatics intern at ICIPE, enthusiastic about genomic research and its significance in solving problems in health and food security.
-Here is my mission, vision and roadmap of how to incooparate my intererst into bioinformatics to reap benefits out of this program.
+:wave: 
+Hello reader! Welcome to my bioinformatics journey, its a pleasure to have you going through my work.
+Get to know me, Kauthar M. Omar, an upcoming bioinformatician and also owner to this repository.
+I am a bioinformatics intern at ICIPE figuring out my niche in the bioinformatics space. I am interested in genomic research and its significance in solving problems in health and food security from a computational point of view.
+
+I am an Applied Bioengineering graduate whose keen interest in bioinformatics rose from curiosity an introductory unit to bioinformatics in my undergraduate.
+I realized over time that there was a lot more to the field that needed to be learnt to start a career in bioinformatics. 
+I am excited to learn new skills, practise them and contribute to ongoing research at ICIPE hence reaping maximum benefits out of internship program
+Feel free to visit this repo more than once as they will be various additions at each stage of my 4 month journey.
+
+Below is my vision, mission and roadmap I will follow during this journey.
 
 # VISION
 
-`Long term`
+### Long term`
 
 To become a leader in bioinformatics having great contribution in genomic research.
 
-`Short term`
+### Short term
 
 To be able to apply my skills learnt during the internship to assigned projects efficiently and with ease making contributions to ongoing research at ICIPE, having keen interest on working with data on microbiome research.
 

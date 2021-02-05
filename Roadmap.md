@@ -1,3 +1,5 @@
+Hello :wave: once more, without further ado lets dive into my roadmap.
+
 # Goals
 
 Here are the **goals** I have to achieve my mission:

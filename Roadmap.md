@@ -32,4 +32,8 @@ Be able to use public repositories such as European Nucleotide Archives (ENA) an
 
 4. Build on my Python skills.
 
+5. Refresh and build on bioinformatics concepts such as ntroduction to Biological Databases, sequence alignment genomics and Phylogenetics
+
+6.
+
 

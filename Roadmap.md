@@ -22,3 +22,9 @@ Formatting of markdowns should be done with ease and attachments such as links, 
 
 2. Be well conversant with data capentry.
 
+I should be able to structure and organize data in a tidy manner before working on it.
+I should learn the use of data tidiness tools to validate my data before working on the data
+Acquire knowledge on softwares to analyse data
+Know the various file formats data is stored in.
+Be able to use public repositories such as European Nucleotide Archives (ENA) and Lenski Sequence Retrivial Archives in data wrangling
+

@@ -27,7 +27,7 @@ To contribute to development of a pipeline using learnt skills hence putting the
 
 *To find my niche in a high demand area/field of bioinformatics and learn the relevant path to take in achieving my goal.
 
-# [Roadmap](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/issues/4)
+# [Roadmap](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/blob/main/Roadmap.md)
 
  ## Conclusion
 To keep track of my progress executing various task click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1).

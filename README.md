@@ -6,7 +6,7 @@ I am a bioinformatics intern at ICIPE figuring out my niche in the bioinformatic
 
 I am an Applied Bioengineering graduate whose keen interest in bioinformatics rose from curiosity an introductory unit to bioinformatics in my undergraduate.
 I realized over time that there was a lot more to the field that needed to be learnt to start a career in bioinformatics. 
-I am excited to learn new skills, practise them and contribute to ongoing research at ICIPE hence reaping maximum benefits out of internship program
+I am excited to learn new skills, practise them and contribute to ongoing research at ICIPE hence reaping maximum benefits out of internship program.
 Feel free to visit this repo more than once as they will be various additions at each stage of my 4 month journey.
 
 Below is my vision, mission and roadmap I will follow during this journey.

@@ -24,12 +24,13 @@ To contribute to development of a pipeline using learnt skills hence putting the
 # Mission
 
 *To be able to apply my skills learnt during the internship to assigned projects efficiently and with ease making contributions to ongoing research at ICIPE, having keen interest on working with data on microbiome research.
+
 *To find my niche in a high demand area/field of bioinformatics and learn the relevant path to take in achieving my goal.
 
 # [Roadmap](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/issues/4)
 
  ## Conclusion
-To keep track of my progress executing various task feel free to click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1).
+To keep track of my progress executing various task click [here](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/projects/1).
 Feel free to interact and contribute to my journey.
 
   :tada:

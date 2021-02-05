@@ -10,3 +10,15 @@ Here are the **goals** I have to achieve my mission:
 
 
 ## Roadmap to achieving goals
+
+Before the end of the first month I should have familirized myself with the following skill set:
+
+1. Be well conversant with slack and Github.
+
+I should be able to efficiently coomunicate, interact and retrieve resources posted on Slack.
+I should comfortably create repositories, milestones attaching issues to them and create projects.
+My project management system should be automized and also utilising cards. 
+Formatting of markdowns should be done with ease and attachments such as links, images and emojis should be added successfully.
+
+2. Be well conversant with data capentry.
+

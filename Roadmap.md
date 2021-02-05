@@ -1,4 +1,4 @@
-Goals
+# Goals
 
 Here are the **goals** I have to achieve my mission:
 * To equip myself with the relevant set of skills. Here is a [checklist](https://github.com/Kauthar-Omar/My-Bioinformatics-Internship/issues/6) of how am progressing in acquring those skills
@@ -7,3 +7,6 @@ Here are the **goals** I have to achieve my mission:
 * To successfully complete a mini project utilising core skils.
 
 **NB** : These goals will form be the foundation to my milestones.
+
+
+## Roadmap to achieving goals

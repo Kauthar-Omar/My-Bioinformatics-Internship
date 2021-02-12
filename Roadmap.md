@@ -32,7 +32,7 @@ Be able to use public repositories such as European Nucleotide Archives (ENA) an
 
 3. Be well conversant with linux
 
-After an introduction to linux, I should practise more to be well conversant.
+After an introduction to linux, I should practise more on my bash scripts to be well conversant.
 
 4. Build on my Python skills.
 

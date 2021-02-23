@@ -36,8 +36,15 @@ After an introduction to linux, I should practise more on my bash scripts to be 
 
 4. Build on my Python skills.
 
-5. Refresh and build on bioinformatics concepts such as ntroduction to Biological Databases, sequence alignment genomics and Phylogenetics
+I learnt how to use Jupyter notebooks in coding other than my usual platform Pycharm.
+I also learnt new fuctions in python and practised both new skills and formally known skills
 
-6.
+5. Refresh and build on bioinformatics concepts such as Introduction to Biological Databases, sequence alignment genomics and Phylogenetics
+
+6. Be able to comfortably use the galaxy platform
+
+I should be able to created complete workflows to perfoem an analysis task.
+I should also know various tools,their functions and how they are used in generating workflows.
+i should be well coversant with different types of input abd utput file formats.
 
 

@@ -29,3 +29,30 @@ It includes slides, videos and both written and video tutorials.
 
 ### MY TAKE-AWAY FROM THE COURSE 
 
+##### Introductory lesson
+Galaxy interface has 3 main parts : on the right is your current history, left are the available tools and
+in the central panel displays the homepage, tool forms, your analysis results and inspection of data.
+Data to start your analysis can be uploaded or gotten from the get data section.
+To inspect your data you click on the eye icon and it appears on the central panel.
+Galaxy supports many file formats.
+
+The **filter tool** can filter data on columns using simple expressions.
+**Intersect tool** looks for intersecting sections between two or more datasets and is useful in getteing overlapping genes.
+**Concatenate** is a tool that combines two or more datasets head to tail.
+For visualization of BED files IGB, IGV or UCSC main can be used.
+The first two are applications hence one has to install while the latter is an online link.
+
+You can create a workflow from your analysis to reuse it in a simliar task.
+Workflows capture all the tools and parameter settings needed to perform an analysis.
+Its creation is done by **extract workflow** found from your current history.
+Unwanted steps can be filtered out and workflow created.
+Workflows can be edited or created from scratch using the workflow editor.
+
+##### Quality control
+
+
+
+
+
+
+

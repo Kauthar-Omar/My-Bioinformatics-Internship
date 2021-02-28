@@ -49,6 +49,13 @@ Unwanted steps can be filtered out and workflow created.
 Workflows can be edited or created from scratch using the workflow editor.
 
 ##### Quality control
+**FastQC** tool provides a simple way to quality control raw sequence data by a modular set of analyses hence giving 
+a quick impression of problems in relation to data before further steps.
+Generally the quality of the sequences drops at the end of the sequences.
+Sequences must be treated to reduce bias in downstream analysis.
+Quality treatments include cutting, trimming and masking sequences from low quality score regions, beginning and end of sequence 
+and removing adapters.
+
 
 
 

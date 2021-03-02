@@ -55,8 +55,53 @@ Generally the quality of the sequences drops at the end of the sequences.
 Sequences must be treated to reduce bias in downstream analysis.
 Quality treatments include cutting, trimming and masking sequences from low quality score regions, beginning and end of sequence 
 and removing adapters.
+Filtering criteria also improve scores. 
+**Cutadapt** tool automates adapter trimmimg. 
+Paired-end analysis can occur and the quality checked by fastQC. 
+The reports from the both ends are aggregate by **MultiQC** on the FastQC reports.
 
+##### Mapping
+Before mapping occurs quality control is important. 
+Read mapping is the process to align the reads on a reference genomes aligning each read in the set of reads on the reference genome. 
+There are over 60 different mappers **Bowtie2** being one of such tools. 
+After mapping the checking statistics is important before proceding with analysis to get possible errors. 
+The output of Bowtie2 is usually a BAM file hence its statistics are checked by **Samtools stats - generate statistics for BAM dataset**.
+The last step of mapping is vizualizing mapped reads and can be done using pre installed IGV or JBrowse from galaxy.
+**JBrowse** instances are websites hosted online that provide an interface to browse genomics data. 
+ Mapping algorithms of choice depends on your data.
+ 
+ ##### Assembly
+Genome assembly ideally is the process of joining together DNA sequencing fragments into longer pieces upto chromosome lengths. 
+**Nanoplot** tool is used to check quality of nanopore reads before assembly. 
+The long nanopre reads are assembled with the **Flye** tool which has 5 output files.
+The assembly can be visualized by **BandagImage** tool.
+Assembly can be polished by mapping the more accurate short reads to the assembly and create an alignment file.
+In this case short illumina reads are first mapped with **Map with BWA-MEM** tool,
+then the short reads are compared to the assembly, and a polished assembly file created using **pilon**.
+**Fasta Statistics** is run on both polished and unpolished assemblies to see how they compare.
+The assembly can then be annoted with **Prokka** or **GeSeq**, the latter is found in Chlorobox not directly in galaxy and visualized by JBrowse.
 
+##### RNA-Seq data analysis and R
+The most common aims of RNA-Seq is to profile gene expression by identifying genes or molecular pathways
+that are differentially expressed (DE) between two or more biological conditions.
+Quality control is the first step followed by mapping which is done using **RNA STAR** tool.
+The quality of the maps are also checked by MultiQC.
+The library strandedness is the determined using **Infer Experiment** but before that make sure your file is in the right format for input
+by converting it to BED using **Convert GTF to BED12** tool.
+The number of reads per annotated gene are counted with **featureCounts** tool and quality checked.
+
+Determination of differntially expressed features is done using **DESeq2** which results into 3 outputs : 
+a table with the normalized counts for each gene (rows) in the samples (columns),a graphical summary of the results which is useful to
+evaluate the quality of the experiment and a summary file with key values for each gene.
+Extraction of the most differentially expressed genes is done by **Filter data on any column using simple expressions**  to extract genes
+with a significant change in gene expression (adjusted p-value below 0.05) between treated and untreated samples used as input data.
+**Filter** is used for filtering to extract genes with an abs(log2FC)>1.
+The differentially expressed genes are annoted using **Annotate DESeq2/DEXSeq output tables** tool using the recent filter as input.
+Normalized counts of the most differentially expressed genes are extracted in two steps and visualized by plotting using **heatmap2** tool.
+The Z score for the most differentially expressed genes is determined by **Table Compute** both single and multiple table separetly 
+and output used in plotting a heatmap.
+Before running fuctional enrichment the datasets must be prepared for the task by selecting right parameters and tools to achieve it.
+The last step of analysis is functional enrichment of the differentially expressed genes by performing gene ontology analysis with **goseq** tool.
 
 
 

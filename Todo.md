@@ -29,7 +29,7 @@ It includes slides, videos and both written and video tutorials.
 
 ### MY TAKE-AWAY FROM THE COURSE 
 
-##### Introductory lesson
+#### Introductory lesson
 Galaxy interface has 3 main parts : on the right is your current history, left are the available tools and
 in the central panel displays the homepage, tool forms, your analysis results and inspection of data.
 Data to start your analysis can be uploaded or gotten from the get data section.
@@ -48,7 +48,7 @@ Its creation is done by **extract workflow** found from your current history.
 Unwanted steps can be filtered out and workflow created.
 Workflows can be edited or created from scratch using the workflow editor.
 
-##### Quality control
+#### Quality control
 **FastQC** tool provides a simple way to quality control raw sequence data by a modular set of analyses hence giving 
 a quick impression of problems in relation to data before further steps.
 Generally the quality of the sequences drops at the end of the sequences.
@@ -60,7 +60,7 @@ Filtering criteria also improve scores.
 Paired-end analysis can occur and the quality checked by fastQC. 
 The reports from the both ends are aggregate by **MultiQC** on the FastQC reports.
 
-##### Mapping
+#### Mapping
 Before mapping occurs quality control is important. 
 Read mapping is the process to align the reads on a reference genomes aligning each read in the set of reads on the reference genome. 
 There are over 60 different mappers **Bowtie2** being one of such tools. 
@@ -70,7 +70,7 @@ The last step of mapping is vizualizing mapped reads and can be done using pre i
 **JBrowse** instances are websites hosted online that provide an interface to browse genomics data. 
  Mapping algorithms of choice depends on your data.
  
- ##### Assembly
+ #### Assembly
 Genome assembly ideally is the process of joining together DNA sequencing fragments into longer pieces upto chromosome lengths. 
 **Nanoplot** tool is used to check quality of nanopore reads before assembly. 
 The long nanopre reads are assembled with the **Flye** tool which has 5 output files.
@@ -81,7 +81,7 @@ then the short reads are compared to the assembly, and a polished assembly file 
 **Fasta Statistics** is run on both polished and unpolished assemblies to see how they compare.
 The assembly can then be annoted with **Prokka** or **GeSeq**, the latter is found in Chlorobox not directly in galaxy and visualized by JBrowse.
 
-##### RNA-Seq data analysis and R
+#### RNA-Seq data analysis and R
 The most common aims of RNA-Seq is to profile gene expression by identifying genes or molecular pathways
 that are differentially expressed (DE) between two or more biological conditions.
 Quality control is the first step followed by mapping which is done using **RNA STAR** tool.
@@ -108,6 +108,19 @@ Basic R syntax such as creating objects, good nomenclature of objects, reassigni
 Object data types or mode, mathematical operations on the objects and functional operations were illustrated and practised.
 Creation of vectors using the **c()** function was introduced, operations on vectors and coercing values in the vectors.
 Easy accestion of objects when compiled in a list and how the lists are created summed up basics of R.
+
+Advances in R in galaxy starts with importation of annotated DE genes in R by read.csv() and subsequent manipulation.
+It is important to note or specify the separator so as to import the dataframe correctly.
+A new data type, factors was illustrated and simple plots plotted using them.
+The concept of subsetting and how vectors may be used was in introduced.
+Concepts covered previously were applied in changing columns types by coercing and inspecting numerical columns using math, sorting
+and renaming.
+Manipulated dataframes assigned to new objects can be written in new files using **write.csv()** function by providing the object and new input file.
+The dplyr library was introduced and used to select colums and fiter rows.
+filter() keeps all the rows that match the conditions that are provided mainly characterised by logical operations and the concept of 
+pipes **%>%** used improves the process and reduces redundancy.
+Other notable dplyr function are mutate(), group_by() and summarise() used in column creation, grouping and summarizing data frames respectively.
+Data frames can be reshaped using spread() and gather() from tidyr library.
 
 
 

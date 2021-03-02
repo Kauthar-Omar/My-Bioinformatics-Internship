@@ -103,7 +103,11 @@ and output used in plotting a heatmap.
 Before running fuctional enrichment the datasets must be prepared for the task by selecting right parameters and tools to achieve it.
 The last step of analysis is functional enrichment of the differentially expressed genes by performing gene ontology analysis with **goseq** tool.
 
-**R studio** is supported on galaxy to enable R programming on the platform.
+**R studio** is supported on galaxy to enable R programming on the platform as an interactive tool.
+Basic R syntax such as creating objects, good nomenclature of objects, reassigning objects and deleting the objects was covered.
+Object data types or mode, mathematical operations on the objects and functional operations were illustrated and practised.
+Creation of vectors using the **c()** function was introduced, operations on vectors and coercing values in the vectors.
+Easy accestion of objects when compiled in a list and how the lists are created summed up basics of R.
 
 
 

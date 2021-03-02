@@ -103,6 +103,8 @@ and output used in plotting a heatmap.
 Before running fuctional enrichment the datasets must be prepared for the task by selecting right parameters and tools to achieve it.
 The last step of analysis is functional enrichment of the differentially expressed genes by performing gene ontology analysis with **goseq** tool.
 
+**R studio** is supported on galaxy to enable R programming on the platform.
+
 
 
 

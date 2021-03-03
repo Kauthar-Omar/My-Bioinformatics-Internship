@@ -169,6 +169,35 @@ Cell type annotation of the clusters is the last step.
 The cell types are added as cluster name manipulated then plotted.
 With the annotated cell types, we can also visualize the expression of their canonical marker genesby plotting.
 
+#### Automating galaxy with workflows.
+Most of the processes in galaxy use similar tools and have the same rational behind their use.
+For the subsequent analysis I used workflows.
+The workflows can be found in the in galaxy shared data or downloaded from the tutorials and imported to your workflows using import workflows and choosing
+the option to upload from local device.
+What is important to note is that your data should be in the right format as input in the workflow.
+Parts of the training run by workflows include:
+- **Proteomics tutorials**
+
+The major highlight on this part is making sure you add a pipe when running proteogenomics 3 on the Uniprot input file as it isn't present when importing it from Proteogenomics 2.
+- **NGS data logistics** 
+
+What to note is to make sure your accesion numbers are in tabular foem
+
+#### Gene Annotation.
+First you need to load the data of the genes you want annotated.
+**Prokka** tool is then used to run the annotation with the condition to annotate contigs that are contigs.fasta which generates multiple outputs.
+The outputs are exammined and fna output of Prokka is visualized using Jbrowser
+Prokka takes time to get output.
+Our main focus in annotation is visualization with Jbrowse to make inferences.
+
+### CONCLUSION
+The GTN training was very insightful and various skills on manuevering through galaxy, creating workflows from history, using various tools, accessing available
+workflowas from shared data and troubleshooting errors were learnt.
+An introduction to different analyses were covered.
+Challanges is understanding Single-cell RNA-Seq Analysis were encountered.
+In general it was a good seld teaching experience and the beggining to expand knowledge on galaxy.
+
+
 
 
 

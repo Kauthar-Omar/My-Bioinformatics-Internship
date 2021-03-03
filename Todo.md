@@ -151,6 +151,27 @@ This is done by:
 - Data normalization and scaling: eliminate cell-specific biases (e.g., in capture efficiency), allowing us to perform explicit comparisons across cells afterwards. Some transformations, typically log, are also applied to adjust for the mean-variance relationship.
 - Selection of features: this picks a subset of interesting features for downstream analysis, by modelling the variance across cells for each gene and retaining genes that are highly variable. This step is done to reduce computational overhead and noise from uninteresting genes.
 
+Principal Component Analysis (PCA) was done on the log-normalized expression values and the first 50 Principal Component (PCs) computed using 
+**Cluster, infer trajectories and embed with scanpy** tool and visualized by plot with scanpy using various plotting methods.
+An Elbow plot i.e a ranking of the PCs based on the percentage of variance they explain is used to determine which PCs to keep making sure percentage variance 
+doesn't drop alot and keeping only those that satisfy the condition.
+PCs are the clustered based on similar expression profiles using unsupervised clustering.
+Graph-based clustering has been popularized for clustering large scRNA-Seq datasets using approaches like the K-nearest neighbor (KNN) graph.
+The Louvain graph-clustering method (community detection based on optimizing modularity) was used with a resolution of 0.5 for clustering then plotted.
+The welch t-test was used to find markers which has good statistical properties for large numbers of cells.
+Another widely used method for pairwise comparisons between groups of observations is the Wilcoxon rank sum test. 
+All methods were visualized in plots and anndata inspected.
+The marker genes should be more expressed in the clusters for which they are markers this information was confirmed with visualizations.
+This was done by plotting expression probability distributions across clusters of top marker genes and top marker gene expression on an UMAP plot.
+Comparison of the marker genes between clusters was done by identifaction of marker genes distinguishing cluster 0 from cluster 1 using Wilcoxon rank sum and 
+plotting the results.
+Cell type annotation of the clusters is the last step.
+The cell types are added as cluster name manipulated then plotted.
+With the annotated cell types, we can also visualize the expression of their canonical marker genesby plotting.
+
+
+
+
 
 
 

@@ -122,6 +122,35 @@ pipes **%>%** used improves the process and reduces redundancy.
 Other notable dplyr function are mutate(), group_by() and summarise() used in column creation, grouping and summarizing data frames respectively.
 Data frames can be reshaped using spread() and gather() from tidyr library.
 
+R is popularly known for visualization.
+Visualization are an important step to check the data, their quality and represent the results found for publication in RNA-seq data
+analysis and other omics experiments.
+A plotting package known as ggplot2 makes it simple to create complex plots from data in a data frame in R.
+ggplot2 provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties.
+The covered geoms of ggplot2 were: geom_point() for scatter plots and dot plots and geom_boxplot() for boxplots.
+Plot specifications such as transparency using alpha, colour, axis labels, spliting using face_grid(), themes can be applied.
+
+#### Single-cell RNA-Seq Analysis 
+The first step in processing scRNA is bar cooding cells.
+Barcodes are small oligonucleotides that are inserted into the captured sequence at a specific point to provide information on the cell the sequence 
+came from and the transcript the sequence came from.
+When verifying barcode formats first the reads are extracted using **Filter sequences by ID** and the confirming of barcodes is done using FastQC and
+examining the distribution of bases in a FastQC plot to infer the encoding of barcodes.
+Barcode extraction and annotation of reads using **UMI-tools extract** tool is done hence uniting barcodes with sequence.
+Its important to note that the cell and umi in the reverse read are added from th forward read.
+
+Before analysis the data must be pre-processed.
+**RNA STARsolo** performs demultiplexing, mapping, and quantification generating 6 output files.
+They include: Log, Feature Statistic Summaries, Alignments, Matrix Gene Counts, Barcodes, Genes which are a program log, a mapping quality file,
+a BAM file of alignments, and 3 count matrix files respectively.
+The log file is subjected to MultiQc to check mapping quality.
+**DropletUtils** suite tools are used to  reproduced a Cell Ranger workflow, rank barcodes and custom filtering options in pre-processing.
+After getting counts, they first need to be prepared before preparing for clustering.
+This is done by:
+- Selection and filtration of cells and genes based on quality metric: Low-quality cells would interfere with downstream analyses. These cells may have been damaged during processing and may not have been fully captured by the sequencing protocol.
+- Data normalization and scaling: eliminate cell-specific biases (e.g., in capture efficiency), allowing us to perform explicit comparisons across cells afterwards. Some transformations, typically log, are also applied to adjust for the mean-variance relationship.
+- Selection of features: this picks a subset of interesting features for downstream analysis, by modelling the variance across cells for each gene and retaining genes that are highly variable. This step is done to reduce computational overhead and noise from uninteresting genes.
+
 
 
 
